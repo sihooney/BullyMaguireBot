@@ -14,5 +14,6 @@ class BullyMaguire(discord.Client):
                 quotes = f.readlines()
                 await message.channel.send(random.choice(quotes))
 
+                
 client = BullyMaguire()
 client.run("token")
